@@ -13,7 +13,7 @@ p{
 #id-selector-demo{
   color: green;
 }
-li{
+li[value]{
   color: blue;
 }
 *{
