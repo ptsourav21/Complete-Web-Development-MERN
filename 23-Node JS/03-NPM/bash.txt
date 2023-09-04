@@ -1,0 +1,126 @@
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN (main)
+$ node -v
+v20.5.1
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN (main)
+$ node
+Welcome to Node.js v20.5.1.
+Type ".help" for more information.
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the REPL
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session t
+Press Ctrl+C to abort current expression, Ctrl+D to exit the
+> exit
+Uncaught ReferenceError: exit is not defined
+> .exit
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN (main)
+$ node
+Welcome to Node.js v20.5.1.
+Type ".help" for more information.
+> 5+8
+13
+> let a = 3
+undefined
+> a+12
+15
+> .exit
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN (main)
+$ mkdir 23-Node\ JS
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN (main)
+$ touch index.js
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN (main)
+$ cd 'i:/Github Repositories/Complete-Web-Development-MERN/2S/'
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ node index.js
+The file has been saved!
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ node index.js
+<Buffer 48 65 6c 6c 6f 20 46 72 6f 6d 20 4e 6f 64 65 20 4a 5
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ node index.js
+<Buffer 48 65 6c 6c 6f 20 46 72 6f 6d 20 4e 6f 64 65 20 4a 5
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ node index.js
+Hello From Node JS
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ mkdir 02-Native\ Module
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ mkdir 03-NPM
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS (main)
+$ cd 'i:/Github Repositories/Complete-Web-Development-MERN/2S/03-NPM'
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS/03-NPM (main)
+$ touch index.js
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS/03-NPM (main)
+$ code index.js 
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Det-MERN/23-Node JS/03-NPM (main)
+$ npm init
+This utility will walk you through creating a package.json f
+It only covers the most common items, and tries to guess senfaults.
+
+See `npm help init` for definitive documentation on these fi
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (03-npm) learning-npm
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Purnendu Talukder
+license: (ISC)
+About to write to I:\Github Repositories\Complete-Web-DeveloRN\23-Node JS\03-NPM\package.json:
+
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Purnendu Talukder",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) y
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Development-MERN/23-Node JS/03-NPM (main)
+$ npm i sillyname
+
+added 1 package, and audited 2 packages in 3s
+
+found 0 vulnerabilities
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Development-MERN/23-Node JS/03-NPM (main)
+$ node index.js 
+My name is Fieldowl Fisher.
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Development-MERN/23-Node JS/03-NPM (main)
+$ touch bash.txt
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Development-MERN/23-Node JS/03-NPM (main)
+$
