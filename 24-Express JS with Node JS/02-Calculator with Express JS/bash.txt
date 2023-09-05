@@ -1,0 +1,462 @@
+User@PURNENDU MINGW64 /i/Github R
+$ cd 24-Express\ JS\ with\ Node\ 
+
+User@PURNENDU MINGW64 /i/Github R
+Node JS (main)
+$ cd 02-
+bash: cd: 02-: No such file or di
+
+User@PURNENDU MINGW64 /i/Github R
+Node JS (main)
+$ cd 02-Calculator\ with\ Express
+
+User@PURNENDU MINGW64 /i/Github R
+Node JS/02-Calculator with Expres
+$ touch calculator.js
+
+User@PURNENDU MINGW64 /i/Github R
+Node JS/02-Calculator with Expres
+$ npm init
+This utility will walk you throug
+It only covers the most common it
+
+See `npm help init` for definitiv
+and exactly what they do.
+
+Use `npm install <pkg>` afterward
+save it as a dependency in the pa
+
+Press ^C at any time to quit.
+package name: (02-calculator-with
+version: (1.0.0)
+description:
+entry point: (calculator.js)
+test command:
+git repository:
+keywords:
+author: Purnendu Talukder
+license: (ISC)
+About to write to I:\Github Repos JS\02-Calculator with Express JS
+
+{
+  "name": "02-calculator-with-exp
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no tes
+  },
+  "author": "Purnendu Talukder",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+User@PURNENDU MINGW64 /i/Github R
+Node JS/02-Calculator with Expres
+$ npm i express
+
+added 58 packages, and audited 59
+
+8 packages are looking for fundin
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+User@PURNENDU MINGW64 /i/Github R
+
+User@PURNENDU MINGW64 /i/Github R
+ress JS with Node JS/02-Calculato
+(main)
+$ touch index.html
+
+User@PURNENDU MINGW64 /i/Github Ress JS with Node JS/02-Calculator
+$ \nodemon calculator.js 
+[nodemon] 3.0.1
+[nodemon] to restart at any time,
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js
+[nodemon] starting `node calculat
+Server is running
+start at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\node_modules\path-to-regexp\index.js:63
+  path = ('^' + path + (strict ? '' : path[path.length - 1] === '/' ? '?' : '/?'))  
+                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\node_modules\express\lib\router\index.js:505:15)
+    at app.<computed> [as post] (I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\node_modules\express\lib\application.js:498:30)
+    at Object.<anonymous> (I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function)
+                      ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+[nodemon] restarting due to changes...
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function)
+                      ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function)
+                      ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+[nodemon] restarting due to changes...
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function())
+                        ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function())
+                        ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+[nodemon] restarting due to changes...
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function(r))
+                         ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function(r))
+                         ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:8
+app.post("/", function(req,res))
+                               ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Development-MERN/24-Express JS with Node JS/02-Calculator with Express JS (main)
+$ npm i body-parser
+
+added 2 packages, changed 2 packages, and audited 61 packages in 7s 
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+User@PURNENDU MINGW64 /i/Github Repositories/Complete-Web-Development-MERN/24-Express JS with Node JS/02-Calculator with Express JS (main)
+$ nodemon calculator.js 
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node calculator.js`
+Server is running
+{ num1: '2', num2: '3', submit: '' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+2
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:12
+  console.log(req.body.num1);
+         ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)   
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)       
+    at Module._load (node:internal/modules/cjs/loader:938:12)       
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting... 
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:16
+  res.send("thanks for posting that"+);
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)   
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)       
+    at Module._load (node:internal/modules/cjs/loader:938:12)       
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting... 
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:11
+    var num1 = parseInt(req.body.num1;
+                                 ^^^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)   
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)       
+    at Module._load (node:internal/modules/cjs/loader:938:12)       
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting... 
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+I:\Github Repositories\Complete-Web-Development-MERN\24-Express JS with Node JS\02-Calculator with Express JS\calculator.js:12
+    var num2 = Number(req.body.num2;
+                               ^^^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1197:27)   
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)       
+    at Module._load (node:internal/modules/cjs/loader:938:12)       
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.5.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node calculator.js`
+Server is running
+4
+4
+4
