@@ -21,4 +21,5 @@ const getTours = async () => {
   }
 };
 
+
 console.log(getTours());
