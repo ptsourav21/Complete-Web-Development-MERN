@@ -13,8 +13,11 @@ console.log(fetch(url));
 const getTours = async () => {
   try {
     const resp = await fetch(url);
+    if(!resp.ok){
+      const msg = `There was en error "${resp.status} ${resp.statusText}"`
+      throw new Error(msg)
+    }
     const data = await resp.json();
-    // console.log(data);
     return data
   } catch (error) {
     console.log(error);
