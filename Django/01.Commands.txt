@@ -1,0 +1,5 @@
+1. Create a project:
+
+python -m django startproject mypage
+
+2. 
