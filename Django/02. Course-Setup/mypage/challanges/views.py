@@ -10,18 +10,29 @@ from django.http import HttpResponse, HttpResponseNotFound
 #     return HttpResponse("this is february")
 # def march(response):
 #     return HttpResponse("this is march")
+monthly_challanges = {
+    "january": "January Page",
+    "february": "february Page",
+    "march": "march Page",
+    "april": "april Page",
+    "may": "may Page",
+    "june": "june Page",
+    "july": "July Page",
+    "august": "August Page",
+    "september": "September Page",
+    "october": "october Page",
+    "november": "november Page",
+    "december": "december Page",
+}
+
 
 def monthly_challange(request, month):
-    challange_text = None
-    if month =='january':
-        challange_text = "January page"
-    elif month == "february":
-        challange_text= "February Page"
-    elif month == "march":
-        challange_text="March Page"
-    else:
-        return HttpResponseNotFound("This month is not supported")
+    try:
+        challange_text = monthly_challanges[month]
+    except :
+        return HttpResponseNotFound("this month is not supported")
     return HttpResponse(challange_text)
+
 
 def monthly_number_challange(response, month):
     return HttpResponse(month)
