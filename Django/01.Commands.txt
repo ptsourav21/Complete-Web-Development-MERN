@@ -2,4 +2,10 @@
 
 python -m django startproject mypage
 
-2. 
+2. creating development server
+
+python manage.py runserver
+
+3. Ceate app
+
+python manage.py startapp challanges

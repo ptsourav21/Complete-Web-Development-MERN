@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
+from django.template.loader import render_to_string
 
 # Create your views here.
-
 
 # def january(request):
 #     return HttpResponse("This works")
@@ -11,6 +11,7 @@ from django.urls import reverse
 #     return HttpResponse("this is february")
 # def march(response):
 #     return HttpResponse("this is march")
+
 monthly_challanges = {
     "january": "January Page",
     "february": "february Page",
@@ -23,14 +24,20 @@ monthly_challanges = {
     "september": "September Page",
     "october": "october Page",
     "november": "november Page",
-    "december": "december Page",
+    "december": None,
 }
+
 def monthly_challange(request, month):
     try:
         challange_text = monthly_challanges[month]
+        response_data = render_to_string("challanges/challange.html")
+        return render(request ,"challanges/challange.html", {
+            "text": challange_text,
+            "month_name": month,
+            })
     except :
         return HttpResponseNotFound("this month is not supported")
-    return HttpResponse(challange_text)
+    
 
 
 def monthly_number_challange(request, month):
@@ -43,12 +50,7 @@ def monthly_number_challange(request, month):
     return HttpResponseRedirect(redirect_path)
 
 def index(request):
-    list_items =""
     months =list(monthly_challanges.keys())
-
-    for month in months:
-        capitalize_month = month.capitalize()
-        month_path = reverse("month-challange", args=[month])
-        list_items += f"<li><a href =\"{month_path}\">{capitalize_month}</a></li>"
-    response_data =f"<ul>{list_items}<ul>"
-    return HttpResponse(response_data)
+    return render(request, "challanges/index.html", {
+        "months" : months
+    })
